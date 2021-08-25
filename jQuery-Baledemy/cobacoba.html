@@ -10,19 +10,41 @@
     <h1>Latihan 1</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia exercitationem nobis architecto cupiditate, distinctio repellat provident labore ducimus, eveniet placeat atque tempora ipsum, sint autem eius cum excepturi quis modi ut veritatis! Voluptas ipsam harum quo architecto, temporibus exercitationem corporis nesciunt consequuntur quasi, reprehenderit iusto nostrum sit doloremque asperiores quos nam? Ea velit, ducimus architecto recusandae quidem iusto obcaecati, neque fugit sint nam, harum eligendi provident amet. Delectus autem optio laudantium harum dolorem quibusdam perspiciatis reiciendis deserunt minima fugiat ad, libero asperiores soluta omnis aut labore eius impedit. Fugit quia enim ab suscipit nam rerum consectetur alias maiores tenetur maxime?</p>
 
-    <button>hilangkan</button>
-    <button>tampilkan</button>
+    <button id="hilang">hilangkan</button>
+    <button id="tampil">tampilkan</button>
 
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script>
         // javascript biasa
-        let p = document.querySelector('p');
-        let btn = document.querySelector('button');
+        // let p = document.querySelector('p');
+        // let hilang = document.getElementById('hilang');
+        // let tampil = document.getElementById('tampil');
+
+        // let h1 = document.querySelector('h1');
         
-        btn.addEventListener('click', function() {
-            p.remove();
+        // hilang.addEventListener('click', function() {
+        //     p.remove();
+        // });
+        // tampil.addEventListener('click', function() {
+        //     let isi = document.createElement('div');
+        //     isi.innerHTML = 'uwu';
+        //     h1.append(isi)
+        // });
+
+
+        // jQuery
+        let p = $('p');
+        let hilang =$('#hilang');
+        let tampil = $('#tampil');
+        $(hilang).click(function() {
+            p.hide();
         })
+        $(tampil).click(function() {
+            p.show()
+        })
+
+
     </script>
 </body>
 </html>
