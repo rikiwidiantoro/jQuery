@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan jQuery - Baledemy</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Latihan 1</h1>
+
+    <h2>Hello <span>World!</span></h2>
+
+    <button>ubah tulisan</button>
+
+    <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+
+
+
+    <!-- lokal / offline -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--  cdn online -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <script>
+        $(document).ready(function() {
+
+            $('button').click(function() {
+                $('span').text('Dunia!')
+            })
+
+        })
+    </script>
+</body>
+</html>
