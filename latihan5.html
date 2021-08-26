@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan jQuery - Baledemy</title>
+</head>
+<body>
+    <h1>Keyup</h1>
+    <hr style="width: 123px; margin-left: 0%;">
+
+    <h2>Hello <span>World!</span></h2>
+    <form>
+        <input type="text">
+        <p class="pesan"></p>
+    </form>
+
+
+
+    <!-- lokal / offline -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--  cdn online -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <script>
+        $(document).ready(function() {
+
+            $('h1').css('textTransform', 'uppercase')
+
+            $('input').keyup(function() {
+                var isi = $(this).val();
+                $('p').text(isi);
+                console.log( isi );
+            });
+        });
+    </script>
+
+</body>
+</html>
