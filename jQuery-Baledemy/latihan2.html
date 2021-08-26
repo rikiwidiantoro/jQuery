@@ -55,7 +55,26 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
     <script>
+        $(document).ready(function() {
 
+            // let clas = document.getElementsByClassName('column');
+
+            // $(clas).map( (column) => {
+            //     console.log( column );
+            // });
+            // console.log(clas)
+
+            $('p').css('backgroundColor', 'red')
+            $('.title').css({
+                'border': '2px solid green',
+                'textTransform': 'uppercase'
+            });
+            $('.footer p').css({
+                'fontSize': '30px',
+                'backgroundColor': 'yellow'
+            });
+
+        })
     </script>
 </body>
 </html>
