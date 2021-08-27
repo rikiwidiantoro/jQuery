@@ -6,4 +6,13 @@ $(document).ready(function() {
     });
 
 
+    // event click()
+    $('#click').click(function() {
+        alert('saya sedang belajar jQuery');
+    });
+
+    // event double click / dblclick()
+    $('#dblclick').dblclick(function() {
+        $(this).css('backgroundColor', 'red');
+    });
 });
