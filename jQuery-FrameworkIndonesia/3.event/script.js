@@ -15,4 +15,24 @@ $(document).ready(function() {
     $('#dblclick').dblclick(function() {
         $(this).css('backgroundColor', 'red');
     });
+
+    // event mouseleave()
+    $('.mouse').mouseleave(function() {
+        $(this).css('backgroundColor', 'skyblue');
+    });
+
+    // event mouseenter()
+    $('.mouse').mouseenter(function() {
+        $(this).css('backgroundColor', 'lime');
+    });
+
+    // event keydown()
+    $('#keydown').keydown(function() {
+        $('#pesandown').text($(this).val());
+    });
+
+    // event keyup
+    $('#keyup').keyup(function() {
+        $('#pesanup').text($(this).val());
+    });
 });
