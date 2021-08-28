@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar jQuery di Framework Indonesia</title>
+
+    <!-- jQuery offline -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+
+    <!-- jQuery cdn / online -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <style>
+        hr {
+            border-width: 2px;
+            background-color: black;
+        }
+        .slide {
+            width: 200px;
+            height: 200px;
+            background-color: darkgreen;
+        }
+        button {
+            margin-top: 20px;
+            margin-right: 15px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Efek jQuery Sliding</h1>
+    <hr>
+    <br><br>
+
+    <!-- efek slidng -->
+    <div>
+        <div class="slide"></div>
+        
+        <button id="slideup">Slide Up</button>
+        <button id="slidedown">Slide Down</button>
+        <button id="slidetoggle">Slide Toggle</button>
+        <br>
+        <button id="stop">Stop</button>
+    </div>
+
+
+
+
+
+    <script src="script-sliding.js"></script>
+    
+</body>
+</html>
