@@ -13,20 +13,89 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
     <style>
+        body {
+            /* margin: 0;
+            padding: 0; */
+            position: relative;
+        }
         hr {
             border-width: 2px;
             background-color: black;
+        }
+        .box {
+            background-color: #abc;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            /* z-index: 1; */
+        }
+        .box2 {
+            background-color: #ace;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            /* z-index: 1; */
+        }
+        button {
+            margin-right: 30px;
+            padding: 10px 23px;
+            cursor: pointer;
+        }
+
+        .delay1 {
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 520px;
+            left: 120px
+        }
+        .delay2 {
+            background-color: greenyellow;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 520px;
+            left: 200px
         }
     </style>
 
 </head>
 <body>
-    <h1>Efek jQuery Sliding</h1>
+    <h1>Efek jQuery Custom</h1>
     <hr>
     <br><br>
 
     <!-- efek custom -->
 
+    <!-- animate() -->
+    <div>
+        <div class="box"></div><br>
+    
+        <button id="kiri">&laquo;</button>
+        <button id="kanan">&raquo;</button>
+    </div>
+
+    <hr><br>
+
+    <!-- clearQueue() -- gagal/gak tau wkwk -->
+    <div>
+        <div class="box2"></div><br>
+
+        <button id="start">Start</button>
+        <button id="clearqueue">Berhenti</button>
+    </div>
+    <hr><br>
+
+
+    <!-- delay() -->
+    <div>
+        <div class="delay1"></div>
+        <div class="delay2"></div>
+        <br>
+
+        <button id="run">RUN</button>
+    </div>
 
 
 
