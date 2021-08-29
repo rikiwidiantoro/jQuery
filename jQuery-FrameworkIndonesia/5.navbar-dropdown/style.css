@@ -12,20 +12,59 @@
     width: 100%;
     background-color: grey;
     padding: 10px;
+    line-height: 40px;
 }
 
 .navbar ul li {
-    display: inline;
+    display: inline-block;
     margin: 0px 20px;
+    position: relative;
 }
 
 .navbar ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.dropdown {
+.navbar ul li ul {
     display: none;
+    position: absolute;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.navbar ul li ul li {
+    display: block;
+}
+
+.navbar ul li ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.navbar ul li ul li a:hover {
+    background-color: rgb(61, 58, 58);
+    padding: 2px 5px;
+    opacity: 1;
+    color: white;
+}
+
+span {
+    font-size: 10px;
+    position: absolute;
+    left: 85px;
+    top: 2px;
+}
+span.p {
+    font-size: 10px;
+    position: absolute;
+    left: 105px;
+    top: 2px;
+}
+
+.navbar h1 {
+    color: rgb(243, 243, 243);
 }
