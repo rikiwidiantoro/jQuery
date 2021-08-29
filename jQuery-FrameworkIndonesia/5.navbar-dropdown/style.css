@@ -17,7 +17,7 @@
 
 .navbar ul li {
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 10px;
     position: relative;
 }
 
@@ -26,6 +26,7 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
+    padding: 5px 10px;
 }
 
 .navbar ul li ul {
@@ -55,16 +56,17 @@
 span {
     font-size: 10px;
     position: absolute;
-    left: 85px;
-    top: 2px;
+    left: 93px;
+    top: 1px;
 }
 span.p {
     font-size: 10px;
     position: absolute;
-    left: 105px;
-    top: 2px;
+    left: 114px;
+    top:1px;
 }
 
 .navbar h1 {
     color: rgb(243, 243, 243);
+    margin: 0px 30px;
 }
