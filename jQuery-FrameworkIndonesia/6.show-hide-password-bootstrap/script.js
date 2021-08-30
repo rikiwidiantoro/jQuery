@@ -10,4 +10,13 @@ $(document).ready(function() {
         'width': '500px',
         'borderRadius': '10px'
     });
+
+    $('#flexCheckDefault').click(function() {
+        if( $(this).is(':checked') ) {
+            $('#inputPassword').attr('type', 'text');
+        } else {
+            $('#inputPassword').attr('type', 'password');
+        }
+    });
+
 });
