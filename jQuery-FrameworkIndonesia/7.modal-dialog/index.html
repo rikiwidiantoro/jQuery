@@ -31,20 +31,39 @@
             padding: 5px 5px;
             border-radius: 2px;
             display: none;
-            z-index: 2;
-
+            z-index: 200;
+            margin: 170px auto;
+            width: 700px;
         }
         #modal {
             margin: 10px 35px;
+            
         }
         #close-button {
             background-color: crimson;
             color: white;
-            float: right;
-            padding: 3px 6px;
+            padding: 4px 8px;
             cursor: pointer;
             border-radius: 3px;
             margin: 4px;
+            font-size: 16px;
+            float: right;
+            margin-top: -40px;
+        }
+        #bg {
+            display: none;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.7;
+            z-index: 10;
+        }
+        hr {
+            border-width: 2px;
+            background-color: black;
         }
     </style>
 
@@ -61,13 +80,23 @@
         <br>
         <button id="tombol">Informasi</button>
 
-        <div id="modal-box">
-            <div id="close">
-                <div id="close-button">X</div>
-            </div>
-            <div id="modal">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat ipsam eaque optio dolores ea labore quas doloremque vitae dolor sit sed a reiciendis aliquid nesciunt alias, veniam ab voluptatum nam. Delectus recusandae vitae quasi debitis, incidunt officiis labore atque temporibus assumenda maiores inventore voluptatibus culpa nobis cum expedita qui.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis qui obcaecati fuga, molestias dicta odio reprehenderit dolore, similique mollitia amet! Qui esse vitae saepe est aperiam quaerat nostrum ullam illo amet dicta itaque, consequatur nulla libero quasi vel? Laborum expedita, deleniti facere nihil saepe numquam modi, voluptates quos eveniet repellat sapiente blanditiis porro ad. Cumque facere maiores ea excepturi illum accusamus reiciendis facilis natus? Distinctio doloribus, soluta numquam maxime tempore earum quaerat exercitationem nam veniam. Explicabo consequuntur earum expedita ducimus itaque beatae odit eos, alias ex exercitationem ut atque fugiat nobis blanditiis, tempore cumque. Aspernatur laboriosam aperiam quas inventore.</p>
+        <div id="bg">
+
+            <div id="modal-box">
+                <div id="satu">
+                    <div id="judul">
+                        <p>Contoh Modal Dialog</p>
+                    </div>
+                    <div id="close">
+                        <div id="close-button">X</div>
+                    </div>
+                </div>
+                <hr>
+                
+                <div id="modal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat ipsam eaque optio dolores ea labore quas doloremque vitae dolor sit sed a reiciendis aliquid nesciunt alias, veniam ab voluptatum nam. Delectus recusandae vitae quasi debitis, incidunt officiis labore atque temporibus assumenda maiores inventore voluptatibus culpa nobis cum expedita qui.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis qui obcaecati fuga, molestias dicta odio reprehenderit dolore, similique mollitia amet! Qui esse vitae saepe est aperiam quaerat nostrum ullam illo amet dicta itaque, consequatur nulla libero quasi vel? Laborum expedita, deleniti facere nihil saepe numquam modi, voluptates quos eveniet repellat sapiente blanditiis porro ad. Cumque facere maiores ea excepturi illum accusamus reiciendis facilis natus? Distinctio doloribus, soluta numquam maxime tempore earum quaerat exercitationem nam veniam. Explicabo consequuntur earum expedita ducimus itaque beatae odit eos, alias ex exercitationem ut atque fugiat nobis blanditiis, tempore cumque. Aspernatur laboriosam aperiam quas inventore.</p>
+                </div>
             </div>
         </div>
     </div>
