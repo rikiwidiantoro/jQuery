@@ -6,6 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar jQuery di Framework Indonesia</title>
 
+    <style>
+        div {
+            text-align: center;
+        }
+        #tombol {
+            background-color: cornflowerblue;
+            color: cornsilk;
+            padding: 10px;
+            border: 1px solid cornflowerblue;
+            border-radius: 5px;
+            font-size: 20px;
+            opacity: .92;
+            cursor: pointer;
+        }
+        #tombol:hover {
+            opacity: 1;
+        }
+        #modal-box {
+            background-color: rgb(212, 212, 212);
+            padding: 5px 20px;
+            border-radius: 2px;
+
+        }
+        #close-button {
+            background-color: crimson;
+            color: white;
+            float: right;
+            padding: 3px 6px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin: 4px;
+        }
+    </style>
+
     <!-- jQuery offline -->
     <script src="../js/jquery-3.6.0.min.js"></script>
 
@@ -14,8 +48,21 @@
 
 </head>
 <body>
-    <h1>Modal Dialog dengan jQuery</h1>
-    <button id="tombol">Informasi</button>
+    <div>
+        <h1>Modal Dialog dengan jQuery</h1>
+        <br>
+        <button id="tombol">Informasi</button>
+
+        <div id="modal-box">
+            <div id="close">
+                <div id="close-button">X</div>
+            </div>
+            <div id="modal">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat ipsam eaque optio dolores ea labore quas doloremque vitae dolor sit sed a reiciendis aliquid nesciunt alias, veniam ab voluptatum nam. Delectus recusandae vitae quasi debitis, incidunt officiis labore atque temporibus assumenda maiores inventore voluptatibus culpa nobis cum expedita qui.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis qui obcaecati fuga, molestias dicta odio reprehenderit dolore, similique mollitia amet! Qui esse vitae saepe est aperiam quaerat nostrum ullam illo amet dicta itaque, consequatur nulla libero quasi vel? Laborum expedita, deleniti facere nihil saepe numquam modi, voluptates quos eveniet repellat sapiente blanditiis porro ad. Cumque facere maiores ea excepturi illum accusamus reiciendis facilis natus? Distinctio doloribus, soluta numquam maxime tempore earum quaerat exercitationem nam veniam. Explicabo consequuntur earum expedita ducimus itaque beatae odit eos, alias ex exercitationem ut atque fugiat nobis blanditiis, tempore cumque. Aspernatur laboriosam aperiam quas inventore.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
