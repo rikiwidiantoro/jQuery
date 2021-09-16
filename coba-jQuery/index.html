@@ -34,7 +34,7 @@
 <body>
     <h3>Hallo, <span id="nama">Admin</span>. Selamat Datang!</h3>
 
-    <button>munculkan text</button>
+    <button>klik</button>
 
     <div class="box">
         <h4>Lorem ipsum dolor sit amet consectetur</h4>
@@ -50,7 +50,9 @@
             $('h3').css('textAlign', 'center');
             $('#nama').text(nama);
 
-            $('.box').css('display', 'none');
+            $('button').click(function() {
+                $('.box').fadeToggle(2000);
+            });
 
         })
     </script>
