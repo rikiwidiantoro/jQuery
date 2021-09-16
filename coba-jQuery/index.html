@@ -14,6 +14,12 @@
             padding: 20px;
             overflow: scroll;
         }
+        button {
+            position: absolute;
+            left: 47%;
+            padding: 7px;
+            cursor: pointer;
+        }
         h4 {
             text-transform: uppercase;
             text-align: center;
@@ -28,6 +34,8 @@
 <body>
     <h3>Hallo, <span id="nama">Admin</span>. Selamat Datang!</h3>
 
+    <button>munculkan text</button>
+
     <div class="box">
         <h4>Lorem ipsum dolor sit amet consectetur</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic labore dolore ducimus fuga? Et libero, modi obcaecati perspiciatis tenetur voluptate sunt similique sint quod. Culpa, architecto. Architecto, tempore! Alias facilis temporibus id dolore, omnis distinctio asperiores voluptatem ab ex. Dolore aspernatur, accusamus similique dolores perspiciatis voluptates corrupti commodi incidunt aliquam harum vero et aperiam. Repellat consectetur tenetur ipsum obcaecati quos officia, odit pariatur quas hic est quidem dolorem ut voluptatum autem nemo architecto. Qui libero fuga iure maxime quis. Impedit optio totam officia sapiente aspernatur illum ut, suscipit eius, doloremque voluptates ratione, doloribus adipisci dicta tenetur. Quibusdam possimus mollitia doloremque quo libero, vel eveniet exercitationem omnis iusto est velit labore tempore repudiandae quidem earum. Corrupti aperiam ratione natus voluptas, commodi voluptatum odio, repudiandae nam, veritatis sunt id autem tenetur! Adipisci qui vel accusantium! Quam atque sequi, obcaecati sint dicta amet neque? Voluptas consequuntur magnam maiores provident voluptatibus inventore possimus praesentium neque libero amet eum saepe sunt expedita voluptatum cum dolor, ipsam soluta fuga qui pariatur nam aspernatur ad natus ex! Sequi, adipisci consequatur veritatis nostrum culpa error, ea dolor vel quia nam laboriosam magni in quod? Molestias, doloremque natus dolorem itaque facere accusamus dolores animi perspiciatis enim, nobis velit voluptatem.</p>
@@ -41,7 +49,8 @@
 
             $('h3').css('textAlign', 'center');
             $('#nama').text(nama);
-            console.log('ok');
+
+            $('.box').css('display', 'none');
 
         })
     </script>
