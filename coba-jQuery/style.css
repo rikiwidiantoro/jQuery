@@ -65,6 +65,11 @@ header ul {
     margin-top: -22px;
     cursor: pointer;
 }
+header span {
+    position: absolute;
+    right: 100px;
+    top: 18px;
+}
 
 footer {
     margin-top: -10px;
