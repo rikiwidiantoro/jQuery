@@ -68,7 +68,15 @@ header ul {
 header span {
     position: absolute;
     right: 100px;
-    top: 18px;
+    top: 13px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+}
+header span:hover {
+    color: rgb(233, 233, 233);
+    background-color: rgb(150, 150, 150);
 }
 
 footer {
