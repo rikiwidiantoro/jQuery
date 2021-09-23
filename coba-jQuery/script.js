@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 
     $('header span').click(function() {
-        console.log('ok')
+        alert('Anda berhasil Keluar!');
     });
 
 })
