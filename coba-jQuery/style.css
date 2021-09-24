@@ -29,15 +29,18 @@ button.klik:hover {
 }
 button.ganti {
     position: absolute;
-    left: 47%;
+    left: 46%;
     top: 18%;
-    padding: 7px 12px;
+    padding: 4px 8px;
     cursor: pointer;
     background-color: rgb(153, 153, 153);
     border: 1px solid rgb(158, 158, 158);
     border-radius: 3px;
     color: white;
-    font-size: 20px
+    font-size: 18px
+}
+button.ganti:hover {
+    background-color: gray;
 }
 h3 {
     text-transform: uppercase;
