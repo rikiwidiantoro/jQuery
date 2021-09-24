@@ -12,7 +12,7 @@
     overflow: scroll;
     border-radius: 3px;
 }
-button {
+button.klik {
     position: absolute;
     left: 47%;
     padding: 7px 12px;
@@ -24,8 +24,20 @@ button {
     font-size: 20px;
     text-transform: uppercase;
 }
-button:hover {
+button.klik:hover {
     background-color: gray;
+}
+button.ganti {
+    position: absolute;
+    left: 47%;
+    top: 18%;
+    padding: 7px 12px;
+    cursor: pointer;
+    background-color: rgb(153, 153, 153);
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 3px;
+    color: white;
+    font-size: 20px
 }
 h3 {
     text-transform: uppercase;
