@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 
     $('.ganti').click(function() {
-        $('#nama').text()
+        $('#nama').text(namaGanti);
     });
 
 })
