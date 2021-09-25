@@ -14,7 +14,7 @@ $(document).ready(function() {
         alert('Anda berhasil Keluar!');
     });
 
-    $('.ganti').click(function() {
+    $('.eren').click(function() {
         $('#nama').text(namaGanti);
     });
 
