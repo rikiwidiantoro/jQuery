@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     let nama = 'Riki Widiantoro';
-    let namaGanti = 'Eren Yeager';
+    let eren = 'Eren Yeager';
 
     $('h3').css('textAlign', 'center');
     $('#nama').text(nama);
@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 
     $('.eren').click(function() {
-        $('#nama').text(namaGanti);
+        $('#nama').text(eren);
     });
 
 })

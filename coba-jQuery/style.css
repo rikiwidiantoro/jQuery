@@ -28,9 +28,6 @@ button.klik:hover {
     background-color: gray;
 }
 button.ganti {
-    position: absolute;
-    left: 46%;
-    top: 18%;
     padding: 4px 8px;
     cursor: pointer;
     background-color: rgb(153, 153, 153);
@@ -41,6 +38,16 @@ button.ganti {
 }
 button.ganti:hover {
     background-color: gray;
+}
+button.eren {
+    position: absolute;
+    left: 46%;
+    top: 18%;
+}
+button.levi {
+    position: absolute;
+    left: 50%;
+    top: 18%;
 }
 h3 {
     text-transform: uppercase;
