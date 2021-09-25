@@ -2,6 +2,8 @@ $(document).ready(function() {
 
     let nama = 'Riki Widiantoro';
     let eren = 'Eren Yeager';
+    let levi = 'Levi Ackerman';
+
 
     $('h3').css('textAlign', 'center');
     $('#nama').text(nama);
@@ -16,6 +18,9 @@ $(document).ready(function() {
 
     $('.eren').click(function() {
         $('#nama').text(eren);
+    });
+    $('.levi').click(function() {
+        $('#nama').text(levi);
     });
 
 })
