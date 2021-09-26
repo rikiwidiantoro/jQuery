@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
     $('h3').css('textAlign', 'center');
-    $('#nama').text(nama);
+    // $('#nama').text(nama);
 
     $('.klik').click(function() {
         $('.box').fadeToggle(2000);
@@ -21,6 +21,9 @@ $(document).ready(function() {
     });
     $('.levi').click(function() {
         $('#nama').text(levi);
+    });
+    $('.riki').click(function() {
+        $('#nama').text(nama);
     });
 
 })
