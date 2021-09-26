@@ -41,12 +41,17 @@ button.ganti:hover {
 }
 button.eren {
     position: absolute;
-    left: 46%;
+    left: 44%;
+    top: 18%;
+}
+button.riki {
+    position: absolute;
+    left: 49%;
     top: 18%;
 }
 button.levi {
     position: absolute;
-    left: 50%;
+    left: 53%;
     top: 18%;
 }
 h3 {
