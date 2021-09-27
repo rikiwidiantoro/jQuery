@@ -76,6 +76,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: ;
 }
 header h2:hover {
     scale: 2;
