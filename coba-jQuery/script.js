@@ -26,11 +26,19 @@ $(document).ready(function() {
         $('#nama').text(nama);
     });
 
-    $('#bgk').click(function() {
-        $('body').css({
-            'backgroundColor': 'darkBlue',
-            'color': 'white'
+    if(true) {
+        $('#bgk').click(function() {
+            $('body').css({
+                'backgroundColor': 'darkBlue',
+                'color': 'white'
+            });
+            $('header').css({
+                'backgroundColor': 'Blue',
+                'color': 'white'
+            });
         });
-    })
+    } else {
+
+    }
 
 })
