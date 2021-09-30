@@ -26,7 +26,7 @@ $(document).ready(function() {
         $('#nama').text(nama);
     });
 
-    if(true) {
+    
         $('#bgk').click(function() {
             $('body').css({
                 'backgroundColor': 'darkBlue',
@@ -36,9 +36,19 @@ $(document).ready(function() {
                 'backgroundColor': 'Blue',
                 'color': 'white'
             });
-        });
-    } else {
 
-    }
+            // gagal
+            if(false) {
+                $('body').css({
+                    'backgroundColor': 'white',
+                    'color': 'black'
+                });
+                $('header').css({
+                    'backgroundColor': 'grey',
+                    'color': 'honeydew'
+                });
+            }
+        });
+
 
 })
