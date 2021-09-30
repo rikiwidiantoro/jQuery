@@ -26,4 +26,11 @@ $(document).ready(function() {
         $('#nama').text(nama);
     });
 
+    $('#bgk').click(function() {
+        $('body').css({
+            'backgroundColor': 'darkBlue',
+            'color': 'white'
+        });
+    })
+
 })
