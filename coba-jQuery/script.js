@@ -28,33 +28,25 @@ $(document).ready(function() {
 
     
         $('#bgk').click(function() {
+            $('body').css({
+                'backgroundColor': 'darkBlue',
+                'color': 'white'
+            });
+            $('header').css({
+                'backgroundColor': 'Blue',
+                'color': 'white'
+            });
+        });
 
-            
-
-
-
-
-
-            // $('body').css({
-            //     'backgroundColor': 'darkBlue',
-            //     'color': 'white'
-            // });
-            // $('header').css({
-            //     'backgroundColor': 'Blue',
-            //     'color': 'white'
-            // });
-
-            // // gagal
-            // if(false) {
-            //     $('body').css({
-            //         'backgroundColor': 'white',
-            //         'color': 'black'
-            //     });
-            //     $('header').css({
-            //         'backgroundColor': 'grey',
-            //         'color': 'honeydew'
-            //     });
-            // }
+        $('#bgk').doubleclick(function() {
+            $('body').css({
+                'backgroundColor': 'white',
+                'color': 'black'
+            });
+            $('header').css({
+                'backgroundColor': 'grey',
+                'color': 'honeydew'
+            });
         });
 
 
