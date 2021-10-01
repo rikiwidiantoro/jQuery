@@ -32,7 +32,7 @@ $(document).ready(function() {
                 'backgroundColor': 'darkBlue',
                 'color': 'white'
             });
-            $('header').css({
+            $('header, footer').css({
                 'backgroundColor': 'Blue',
                 'color': 'white'
             });
