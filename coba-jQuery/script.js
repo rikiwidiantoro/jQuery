@@ -38,7 +38,7 @@ $(document).ready(function() {
             });
         });
 
-        $('#bgk').doubleclick(function() {
+        $('#bgk').dblclick(function() {
             $('body').css({
                 'backgroundColor': 'white',
                 'color': 'black'
