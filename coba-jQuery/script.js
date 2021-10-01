@@ -28,26 +28,33 @@ $(document).ready(function() {
 
     
         $('#bgk').click(function() {
-            $('body').css({
-                'backgroundColor': 'darkBlue',
-                'color': 'white'
-            });
-            $('header').css({
-                'backgroundColor': 'Blue',
-                'color': 'white'
-            });
 
-            // gagal
-            if(false) {
-                $('body').css({
-                    'backgroundColor': 'white',
-                    'color': 'black'
-                });
-                $('header').css({
-                    'backgroundColor': 'grey',
-                    'color': 'honeydew'
-                });
-            }
+            
+
+
+
+
+
+            // $('body').css({
+            //     'backgroundColor': 'darkBlue',
+            //     'color': 'white'
+            // });
+            // $('header').css({
+            //     'backgroundColor': 'Blue',
+            //     'color': 'white'
+            // });
+
+            // // gagal
+            // if(false) {
+            //     $('body').css({
+            //         'backgroundColor': 'white',
+            //         'color': 'black'
+            //     });
+            //     $('header').css({
+            //         'backgroundColor': 'grey',
+            //         'color': 'honeydew'
+            //     });
+            // }
         });
 
 
