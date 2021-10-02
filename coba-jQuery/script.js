@@ -43,7 +43,7 @@ $(document).ready(function() {
                 'backgroundColor': 'white',
                 'color': 'black'
             });
-            $('header').css({
+            $('header, footer').css({
                 'backgroundColor': 'grey',
                 'color': 'honeydew'
             });
