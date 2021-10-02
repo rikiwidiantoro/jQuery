@@ -4,7 +4,6 @@ $(document).ready(function() {
     let eren = 'Eren Yeager';
     let levi = 'Levi Ackerman';
 
-
     $('h3').css('textAlign', 'center');
     // $('#nama').text(nama);
 
@@ -25,7 +24,6 @@ $(document).ready(function() {
     $('.riki').click(function() {
         $('#nama').text(nama);
     });
-
     
         $('#bgk').click(function() {
             $('body').css({
@@ -48,6 +46,4 @@ $(document).ready(function() {
                 'color': 'honeydew'
             });
         });
-
-
 })
