@@ -119,6 +119,8 @@ footer p {
 }
 
 #bgk {
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 5px;
+    font-size: 9px;
+    cursor: pointer;
 }
