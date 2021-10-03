@@ -117,3 +117,8 @@ footer {
 footer p {
     text-align: center;
 }
+
+#bgk {
+    margin-left: 20px;
+    padding: 5px;
+}
