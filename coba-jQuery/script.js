@@ -34,7 +34,7 @@ $(document).ready(function() {
                 'backgroundColor': 'Blue',
                 'color': 'white'
             });
-            console.log(this.innerText = 'Dark Blue');
+            console.log(this.innerText = 'White');
         });
 
         $('#bgk').dblclick(function() {
@@ -46,5 +46,6 @@ $(document).ready(function() {
                 'backgroundColor': 'grey',
                 'color': 'honeydew'
             });
+            console.log(this.innerText = 'Dark Blue');
         });
 })
