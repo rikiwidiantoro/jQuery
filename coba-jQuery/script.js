@@ -34,6 +34,7 @@ $(document).ready(function() {
                 'backgroundColor': 'Blue',
                 'color': 'white'
             });
+            console.log(this);
         });
 
         $('#bgk').dblclick(function() {
