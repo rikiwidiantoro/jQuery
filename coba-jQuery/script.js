@@ -34,7 +34,7 @@ $(document).ready(function() {
                 'backgroundColor': 'Blue',
                 'color': 'white'
             });
-            console.log(this);
+            console.log(this.innerText = 'Dark Blue');
         });
 
         $('#bgk').dblclick(function() {
