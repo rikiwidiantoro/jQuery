@@ -48,4 +48,5 @@ $(document).ready(function() {
             });
             console.log(this.innerText = 'Dark Blue');
         });
+        
 })
